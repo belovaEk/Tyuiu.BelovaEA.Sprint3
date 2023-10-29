@@ -9,13 +9,13 @@ namespace Tyuiu.BelovaEA.Sprint3.Task1.V22.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void CheckGetMultiplySeries()
+        public void CheckGetGetSumSeries()
         {
             DataService ds = new DataService();
             double a = 1;
             int start = 1;
             int stop = 2;
-            Assert.AreEqual(0.186, ds.GetMultiplySeries(a, start, stop));
+            Assert.AreEqual(0.186, ds.GetSumSeries(a, start, stop));
         }
     }
 }

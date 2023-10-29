@@ -45,7 +45,7 @@ namespace Tyuiu.BelovaEA.Sprint3.Task0.V8
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.GetSumSeries(a, startValue, stopValue));
+            Console.WriteLine(ds.GetMultiplySeries(a, startValue, stopValue));
             Console.ReadKey();
 
         }

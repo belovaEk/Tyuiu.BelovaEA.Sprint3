@@ -9,7 +9,7 @@ namespace Tyuiu.BelovaEA.Sprint3.Task2.V24.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidGetSumSeries()
+        public void ValidGetMultiplySeries()
         {
             DataService ds = new DataService();
 
@@ -17,7 +17,7 @@ namespace Tyuiu.BelovaEA.Sprint3.Task2.V24.Test
             int stop = 2;
             double a = 0.0;
 
-            Assert.AreEqual(16, ds.GetSumSeries(a, start, stop));
+            Assert.AreEqual(16, ds.GetMultiplySeries(a, start, stop));
         }
     }
 }
